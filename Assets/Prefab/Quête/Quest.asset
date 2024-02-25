@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f650d79fb5d976c4aa385addf3402511, type: 3}
+  m_Name: Quest
+  m_EditorClassIdentifier: 
+  id: 0
+  title: La boulangerie
+  description: Mince J'ai Oublier mon gateau peut tu allez le chercher ?
+  sentences:
+  - Mince J'ai Oublier mon gateau peut tu allez le chercher ?
+  InprogressSentence:
+  - Retourne a Gauche pour allez a la boulangerie
+  completeSentence:
+  - "Merci beaucoup ! La f\xEAte sera encore meilleure"
+  afterQuestSentence:
+  - "c'est \xE9trange il n'y a personne ici vas voir a droite si il y on pas"
+  objectTofind: gateau
+  actualAmount: 0
+  amountToFind: 1
+  goldToGive: 0
+  statut: 0
